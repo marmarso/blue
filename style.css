@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Butler' , 'Grand Amoura';
+}
+
+
+/* HEADER */
+
+nav{
+    padding: 5px;
+    position: relative;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-flex;
+    padding: 10px 30px;
+    font-family: 'Butler';
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #6b96b1;
+}
+
+nav ul li:hover{
+    background-color: #6b96b1;
+    color: white;
+}
+
+header{
+    background-image: url(header.jpg);
+    background-size: cover;
+    height: 615px;
+    background-position: bottom;
+}
+
+header h1{
+    font-family: 'Butler-Light';
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    padding-top: 25%;
+    padding-left: 30px;
+}
+
+
+/* QUOTE */
+
+.quote{
+    margin: 30px;
+    padding: 20px;
+}
+
+.quote h4 , .quote h3{
+    text-align: center;
+    color: #6b96b1;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.quote h4{
+    font-family: 'Grand Amoura';
+    font-weight: lighter;
+}
+
+.quote p{
+    margin: 0 auto;
+    text-align: center;
+    width: 450px;
+    padding: 20px;
+    line-height: 1.5;
+    color: #282828;
+}
+
+
+/* FEATURED PRODCUT */
+
+.featured-product-section{
+    padding: 50px 90px;
+    background-color: #578fb1;
+    height: 650px;
+}
+
+.featured-product-section h3{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 40px;
+    border-bottom: #fff solid 2px;
+}
+
+span{
+    color: cornflowerblue;
+    font-size: 20px;
+    transform: rotate(-35deg);
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.featured-product{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.featured-product p{
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: left;
+    width: 500px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.featured-product ul{
+    padding: 20px;
+    padding-top: 0;
+}
+
+.featured-product ul li{
+    list-style: circle;
+    line-height: 3;
+    position: relative;
+    left: 35px;
+    color: #fff;
+}
+
+.featured-product img{
+    width: 400px;
+    padding-top: 30px;
+}
+
+.button{
+    text-decoration: none;
+    font-family: 'Butler';
+    color: #fff;
+    border: #fff solid 2px;
+    border-radius: 50%;
+    padding: 18px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+.button:hover{
+    color: #578fb1;
+    background-color: #fff;
+}
+
+
+/* PRODUCTS */
+
+.products-section{
+    padding-top: 50px;
+    height: 700px;
+}
+
+.products{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-section h3{
+    text-align: center;
+    color: #6b96b1;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.products img{
+    width: 300px;
+}
+
+.products h4{
+    color: #282828;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* SERVICES */
+
+.services-section{
+    height: 720px;
+    background-color: #578fb1;
+    padding: 30px 90px;
+}
+
+.services-section h3{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.services-section h4{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Grand Amoura';
+    font-weight: lighter;
+}
+
+.services{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.services p{
+    width: 500px;
+    color: #fff;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+.services h5{
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.services ul{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.services ul li{
+    color: #fff;
+    line-height: 2;
+}
+
+.services img{
+    width: 450px;
+    padding-top: 20px;
+}
+
+
+/* FOOTER */
+
+footer{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
